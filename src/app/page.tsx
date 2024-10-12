@@ -1,4 +1,4 @@
-import { FaLinkedin, FaBehance , FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaBehance, FaTwitter } from 'react-icons/fa';
 import Image from 'next/image';
 
 export default function Home() {
@@ -8,19 +8,19 @@ export default function Home() {
  <nav className="flex justify-between items-center px-8 py-4 bg-gray-900 shadow-md">
  <ul className="flex-1 flex justify-center space-x-8">
  <li className="hover:text-gray-400">
- <a href="hashtag#home">Home</a>
+ <a href="hashtaghashtaghashtag#home">Home</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtag#case-studies">Case Studies</a>
+ <a href="hashtaghashtaghashtag#case-studies">Case Studies</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtag#testimonials">Testimonials</a>
+ <a href="hashtaghashtaghashtag#testimonials">Testimonials</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtag#work">Recent Work</a>
+ <a href="hashtaghashtaghashtag#work">Recent Work</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtag#contact">Get In Touch</a>
+ <a href="hashtaghashtaghashtag#contact">Get In Touch</a>
  </li>
  </ul>
  <div className="flex space-x-4">
@@ -30,7 +30,7 @@ export default function Home() {
  <a href="#" aria-label="Behance" className="text-gray-400 hover:text-white">
  <FaBehance size={20} />
  </a>
- <a href="#" aria-label="FaTwitter" className="text-gray-400 hover:text-white">
+ <a href="#" aria-label="Twitter" className="text-gray-400 hover:text-white">
  <FaTwitter size={20} />
  </a>
  </div>
@@ -44,7 +44,7 @@ export default function Home() {
  Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  </p>
  <button className="mt-6 bg-green-600 hover:bg-green-500 text-white py-2 px-6 rounded shadow-lg">
- Let's get started
+ Let&apos;s get started
  </button>
  </div>
  <div className="rounded-full overflow-hidden w-48 h-48 md:w-56 md:h-56">
