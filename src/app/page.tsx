@@ -1,5 +1,9 @@
 import { FaLinkedin, FaBehance, FaTwitter } from 'react-icons/fa';
 import Image from 'next/image';
+import About from "./components/about";
+import Contact from './components/contact';
+import Footer from './components/footer';
+
 
 export default function Home() {
  return (
@@ -8,19 +12,19 @@ export default function Home() {
  <nav className="flex justify-between items-center px-8 py-4 bg-gray-900 shadow-md">
  <ul className="flex-1 flex justify-center space-x-8">
  <li className="hover:text-gray-400">
- <a href="hashtaghashtaghashtag#home">Home</a>
+ <a href="#home">Home</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtaghashtaghashtag#case-studies">Case Studies</a>
+ <a href="#about">About</a> {/* Updated the link to reference the About section */}
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtaghashtaghashtag#testimonials">Testimonials</a>
+ <a href="#contact">Contact Me</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtaghashtaghashtag#work">Recent Work</a>
+ <a href="hashtaghashtaghashtaghashtaghashtag#work">Skills</a>
  </li>
  <li className="hover:text-gray-400">
- <a href="hashtaghashtaghashtag#contact">Get In Touch</a>
+ <a href="hashtaghashtaghashtaghashtaghashtag#contact">Projects</a>
  </li>
  </ul>
  <div className="flex space-x-4">
@@ -37,11 +41,12 @@ export default function Home() {
  </nav>
 
  {/* Hero Section */}
- <section className="flex flex-col md:flex-row items-center justify-center py-16 space-y-8 md:space-y-0 md:space-x-16">
+ <section id="home" className="flex flex-col md:flex-row items-center justify-center py-16 space-y-8 md:space-y-0 md:space-x-16">
  <div className="text-center md:text-left">
- <h1 className="text-4xl font-bold">Your Name Here</h1>
+ <h1 className="text-4xl font-bold">Hello' i am Ravish Fayyaz</h1>
  <p className="mt-4 max-w-md text-gray-400">
- Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ "I have recently completed my master's in Economics from Karachi University 
+ and i am expanding my knowledge in the IT sector".
  </p>
  <button className="mt-6 bg-green-600 hover:bg-green-500 text-white py-2 px-6 rounded shadow-lg">
  Let&apos;s get started
@@ -49,7 +54,7 @@ export default function Home() {
  </div>
  <div className="rounded-full overflow-hidden w-48 h-48 md:w-56 md:h-56">
  <Image
- src="/image1.jpg"
+ src="/444.jpg"
  alt="Profile"
  width={224}
  height={224}
@@ -58,17 +63,16 @@ export default function Home() {
  </div>
  </section>
 
+ {/* About Section */}
+ <About /> {/* Include the About section here */}
+<Contact />
+<Footer />
+
  {/* Partners Section */}
- <section className="py-8">
- <h3 className="text-center text-gray-400">Worked with</h3>
- <div className="flex justify-center space-x-6 mt-4">
- <div className="bg-gray-800 p-2 rounded shadow-md">ClickUp</div>
- <div className="bg-gray-800 p-2 rounded shadow-md">Dropbox</div>
- <div className="bg-gray-800 p-2 rounded shadow-md">PAYCHEX</div>
- <div className="bg-gray-800 p-2 rounded shadow-md">Elastic</div>
- <div className="bg-gray-800 p-2 rounded shadow-md">Stripe</div>
- </div>
- </section>
  </div>
  );
 }
+
+
+
+
